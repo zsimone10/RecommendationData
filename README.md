@@ -8,12 +8,12 @@ data = resp.json()
 print data
 
 setup notes for rerunning:
--start flask
--start ngrok
--copy ngrok address on the second forwarding line
--go to webhooks page for app and paste into address and enter "testtest"
+*start flask
+*start ngrok
+*copy ngrok address on the second forwarding line
+*go to webhooks page for app and paste into address and enter "testtest"
   in the token field
--go back to the main settings fb page and copy token
--paste into code and save
--restart Flask
--should be good to go !
+*go back to the main settings fb page and copy token
+*paste into code and save
+*restart Flask
+*should be good to go !
